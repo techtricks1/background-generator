@@ -1,0 +1,61 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.control {
+  margin: 10px;
+}
+
+input[type="color"] {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 60px;
+  margin-left: 10px;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.preview {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease-in-out;
+}
+
+.css-code {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-family: monospace;
+  transition: background 0.3s ease-in-out;
+}
+
+.css-code:hover {
+  background-color: #eaeaea;
+}

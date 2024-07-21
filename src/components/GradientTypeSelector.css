@@ -1,0 +1,13 @@
+/* src/components/GradientTypeSelector.css */
+.gradient-type-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  select,
+  input[type="number"] {
+    margin-top: 5px;
+  }
+  
